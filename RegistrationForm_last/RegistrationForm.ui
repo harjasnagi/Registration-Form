@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>374</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>90</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Registration Form</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="username">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>50</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="password">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="re_pass">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>110</y>
+      <width>90</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Retype Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hint_ques">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>140</y>
+      <width>70</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hint Question</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hint_pass">
+    <property name="geometry">
+     <rect>
+      <x>48</x>
+      <y>180</y>
+      <width>70</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hint Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gender">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>40</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gender</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mail">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>250</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Email ID</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_user">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>50</y>
+      <width>190</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_pass">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>80</y>
+      <width>190</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_pass2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>190</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="box_ques">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>140</y>
+      <width>190</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>What is your Name ?</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>What is your favourite Colour ?</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>In which City do you Live ?</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>What is your Nickname ?</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Which Car do you Own ?</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="line_hint">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>180</y>
+      <width>190</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="male">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>220</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Male</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="female">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>220</y>
+      <width>60</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Female</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_mail">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>250</y>
+      <width>190</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="register_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>300</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>361</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>register_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>signup()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>324</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>94</x>
+     <y>317</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>signup()</slot>
+ </slots>
+</ui>
